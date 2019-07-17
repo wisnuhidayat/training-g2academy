@@ -9,18 +9,18 @@
   },
   "dependencies": {
     "axios": "0.19.0",
-    "vue": "^2.5.22",
+    "vue": "^2.6.10",
     "vue-router": "3.0.7",
     "vuex": "3.1.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "3.6.0",
-    "@vue/cli-plugin-eslint": "3.6.0",
-    "@vue/cli-service": "3.6.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21",
+    "@vue/cli-plugin-babel": "3.9.2",
+    "@vue/cli-plugin-eslint": "3.9.2",
+    "@vue/cli-service": "3.9.2",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "vue-template-compiler": "^2.6.10",
     "vue-router": "3.0.7"
   },
   "eslintConfig": {
@@ -28,7 +28,10 @@
     "env": {
       "node": true
     },
-    "extends": ["plugin:vue/essential", "eslint:recommended"],
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
@@ -39,5 +42,9 @@
       "autoprefixer": {}
     }
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
