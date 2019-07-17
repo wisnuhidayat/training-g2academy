@@ -8,7 +8,7 @@ export default new vuex.Store({
     count: 1
   },
   mutations: {
-    increment(state, param) {
+    increment(state) {
       state.count += 1;
     }
   }
